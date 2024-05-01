@@ -21,9 +21,9 @@ class productoFactory extends Factory
     public function definition(): array
     {
         return [
-            'nombre' => $this->faker->randomElement(['producto1','producto2','producto3','producto4','producto5','producto6','producto7','producto8']),
+            'nombasdasdasdasdare' => $this->faker->randomElement(['producto1','producto2','producto3','producto4','producto5','producto6','producto7','producto8']),
             'precio' => $this->faker->randomFloat(1, 1, 30),
-            'cantidad' => $this->faker->numberBetween(0, 100),
+            'cantasdidad' => $this->faker->numberBetween(0, 100),
             'fecha_entrega' => $this->faker->date(),
             'fecha_exp' => $this->faker->dateTimeInInterval('+1 years', '+3 days'),
         ];
